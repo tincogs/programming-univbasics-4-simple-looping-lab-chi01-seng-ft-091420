@@ -28,7 +28,7 @@ end
 start = [5, 4, 3, 2, 1]
 def return_string_array(array)
   count = 0
-  new_array[]
+  new_array = []
   while count < array.length do
     array[count].to_s << new_array
     count += 1
